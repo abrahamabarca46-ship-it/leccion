@@ -12,7 +12,7 @@ import { ReservaHotelPage } from './reserva-hotel.page';
     FormsModule,
     IonicModule,
     ReservaHotelPageRoutingModule,
-    ReservaHotelPage // <-- Quitamos de declarations y lo ponemos AQUÍ como import
+    ReservaHotelPage // 
   ]
 })
 export class ReservaHotelPageModule {}

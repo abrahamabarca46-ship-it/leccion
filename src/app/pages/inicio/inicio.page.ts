@@ -50,7 +50,12 @@ export class InicioPage implements OnInit {
     icon: 'calendar-outline', 
     name: 'Reserva de Hotel',
     redirectTo: '/reserva-hotel'
-  }
+  },
+  {
+      icon: 'cube-outline', 
+      name: 'Registro de Producto',
+      redirectTo: '/registro-producto'
+    }
   ];
 
   constructor() { }

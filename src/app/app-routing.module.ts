@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'reserva-hotel',
     loadChildren: () => import('./pages/reserva-hotel/reserva-hotel.module').then( m => m.ReservaHotelPageModule)
   },
+  {
+    path: 'registro-producto',
+    loadChildren: () => import('./pages/registro-producto/registro-producto.module').then( m => m.RegistroProductoPageModule)
+  },
 ];
 
 @NgModule({
