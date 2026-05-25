@@ -6,13 +6,15 @@ import {
   IonContent, 
   IonHeader, 
   IonTitle, 
-  IonToolbar 
-} from '@ionic/angular/standalone'; // Importaciones individuales de la guía
+  IonToolbar,
+  IonButtons,    // <-- Agrega este
+  IonBackButton  // <-- Agrega este
+} from '@ionic/angular/standalone'; 
 
 @Component({
   selector: 'app-avatar',
   templateUrl: './avatar.page.html',
-  styleUrls: ['./avatar.page.scss'], // Enlazado a tu archivo scss personalizado
+  styleUrls: ['./avatar.page.scss'],
   standalone: true,
   imports: [
     CommonModule, 
@@ -21,7 +23,9 @@ import {
     IonContent, 
     IonHeader, 
     IonTitle, 
-    IonToolbar
+    IonToolbar,
+    IonButtons,    // <-- Regístralo aquí
+    IonBackButton  // <-- Regístralo aquí
   ]
 })
 export class AvatarPage implements OnInit {
