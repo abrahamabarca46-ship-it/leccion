@@ -6,30 +6,23 @@ const routes: Routes = [
     path: 'inicio',
     loadChildren: () => import('./pages/inicio/inicio.module').then(m => m.InicioPageModule)
   },
-  {
-    path: 'alert',
-    loadChildren: () => import('./pages/alert/alert.module').then(m => m.AlertPageModule)
-  },
-  {
-    path: 'action-sheet',
-    loadChildren: () => import('./pages/action-sheet/action-sheet.module').then(m => m.ActionSheetPageModule)
-  },
+  
+  
   {
     path: '',
     redirectTo: 'inicio',
     pathMatch: 'full'
   },
+ 
+ 
+ 
   {
-    path: 'input',
-    loadChildren: () => import('./pages/input/input.module').then( m => m.InputPageModule)
+    path: 'avatar',
+    loadChildren: () => import('./pages/avatar/avatar.module').then( m => m.AvatarPageModule)
   },
   {
-    path: 'reserva-hotel',
-    loadChildren: () => import('./pages/reserva-hotel/reserva-hotel.module').then( m => m.ReservaHotelPageModule)
-  },
-  {
-    path: 'registro-producto',
-    loadChildren: () => import('./pages/registro-producto/registro-producto.module').then( m => m.RegistroProductoPageModule)
+    path: 'button',
+    loadChildren: () => import('./pages/button/button.module').then( m => m.ButtonPageModule)
   },
 ];
 

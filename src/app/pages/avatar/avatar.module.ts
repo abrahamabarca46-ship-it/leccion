@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { AlertPageRoutingModule } from './alert-routing.module';
+import { AvatarPageRoutingModule } from './avatar-routing.module';
 
-import { AlertPage } from './alert.page';
+import { AvatarPage } from './avatar.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    AlertPageRoutingModule,
-    AlertPage
+    AvatarPageRoutingModule
   ],
+  declarations: []
 })
-export class AlertPageModule {}
+export class AvatarPageModule {}

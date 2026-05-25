@@ -36,26 +36,17 @@ export class InicioPage implements OnInit {
 
   //componentes: any^[] = [];
   componentes: Componente[] = [] = [
+  
     {
-      icon: 'american-football-outline', 
-      name: 'Action Sheet', 
-      redirectTo: '/action-sheet'
-    },
-    
-    { 
-      icon: 'logo-circle-outline', 
-      name: 'Alert', 
-      redirectTo: '/alert' },
-      {
-    icon: 'calendar-outline', 
-    name: 'Reserva de Hotel',
-    redirectTo: '/reserva-hotel'
+    icon: 'person-circle-outline',
+    name: 'Avatar',
+    redirectTo: '/avatar'
   },
-  {
-      icon: 'cube-outline', 
-      name: 'Registro de Producto',
-      redirectTo: '/registro-producto'
-    }
+    {
+    icon: 'radio-button-on-outline',
+    name: 'Botón',
+    redirectTo: '/button'
+  }
   ];
 
   constructor() { }
